@@ -1,0 +1,23 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-03-01 07:27:16
+ * @LastEditTime: 2020-03-01 07:27:17
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /mysite/login/templates/login/index.html
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+</head>
+<body>
+<h1>你好，{{ request.session.user_name }}！欢迎回来！</h1>
+<p>
+    <a href="/logout/">登出</a>
+</p>
+</body>
+</html>
